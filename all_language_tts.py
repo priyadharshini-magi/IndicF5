@@ -46,8 +46,8 @@ voices = {
 
     # 🌍 International Languages
     "english.wav": (
-        "Hello. English is a global language used for communication worldwide.",
-        "en-US-JennyNeural"
+        "Hello. Welcome to SCM SILK Supplier Portal",
+        "en-IN-AartiNeural"
     ),
     "french.wav": (
         "Bonjour. Le français est une langue élégante et largement parlée.",

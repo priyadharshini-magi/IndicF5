@@ -8,6 +8,7 @@ voices = {
     "kannada.wav": ("ನಾನು ಕನ್ನಡ ಮಾತನಾಡುತ್ತೇನೆ", "kn-IN-GaganNeural"),
     "hindi.wav": ("मैं हिंदी बोलता हूँ", "hi-IN-MadhurNeural"),
     "marathi.wav": ("मी मराठी बोलतो", "mr-IN-AarohiNeural"),
+    "english.wav": ("W W W .the s c m silk dot com", "en-IN-NeerjaNeural"),
 }
 
 async def main():
