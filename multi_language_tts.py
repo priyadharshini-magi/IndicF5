@@ -2,11 +2,11 @@ import asyncio
 import edge_tts
 
 voices = {
-    "tamil.wav": ("நான் தமிழ் பேசுகிறேன்", "ta-IN-ValluvarNeural"),
+    "tamil.wav": ("நான் தமிழ் பேசுகிறேன்", "ta-IN-PallaviNeural"),
     "malayalam.wav": ("ഞാൻ മലയാളം സംസാരിക്കുന്നു", "ml-IN-SobhanaNeural"),
-    "telugu.wav": ("నేను తెలుగు మాట్లాడుతున్నాను", "te-IN-MohanNeural"),
-    "kannada.wav": ("ನಾನು ಕನ್ನಡ ಮಾತನಾಡುತ್ತೇನೆ", "kn-IN-GaganNeural"),
-    "hindi.wav": ("मैं हिंदी बोलता हूँ", "hi-IN-MadhurNeural"),
+    "telugu.wav": ("నేను తెలుగు మాట్లాడుతున్నాను", "te-IN-ShrutiNeural"),
+    "kannada.wav": ("ನಾನು ಕನ್ನಡ ಮಾತನಾಡುತ್ತೇನೆ", "kn-IN-SapnaNeural"),
+    "hindi.wav": ("मैं हिंदी बोलता हूँ", "hi-IN-SwaraNeural"),
     "marathi.wav": ("मी मराठी बोलतो", "mr-IN-AarohiNeural"),
     "english.wav": ("W W W .the s c m silk dot com", "en-IN-NeerjaNeural"),
 }

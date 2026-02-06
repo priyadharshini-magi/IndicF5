@@ -15,7 +15,7 @@ OUTPUT_FILE = "scm2.wav"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 voices = {
     "malayalam.wav": (
-    "S C M SILK സപ്ലയർ പോർട്ടലിലേക്കു സ്വാഗതം. "
+    " A V SEVEN S C M SILK സപ്ലയർ പോർട്ടലിലേക്കു സ്വാഗതം. "
     "ഈ വീഡിയോയിൽ S C M SILK സപ്ലയർ പോർട്ടലിൽ അപോയിന്റ്മെന്റ് എങ്ങനെ ബുക്ക് ചെയ്യാമെന്ന് സ്റ്റെപ്പ് ബൈ സ്റ്റെപ്പായി വിശദീകരിക്കുന്നു. "
     "ആദ്യം Google Chrome തുറക്കുക. "
     "അഡ്രസ് ബാറിൽ www. the S C M silk dot com ടൈപ്പ് ചെയ്ത് Enter അമർത്തുക. "

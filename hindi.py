@@ -17,7 +17,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 voices = {
 
     "hindi.wav": (
-    "S C M SILK सप्लायर पोर्टल में आपका स्वागत है। "
+    "A V SEVEN S C M SILK सप्लायर पोर्टल में आपका स्वागत है। "
     "इस वीडियो में SCM SILK सप्लायर पोर्टल में अपॉइंटमेंट कैसे बुक करें, यह स्टेप बाय स्टेप बताया गया है। "
     "सबसे पहले Google Chrome खोलें। "
     "एड्रेस बार में www dot the scm silk dot com टाइप करें और Enter दबाएँ। "
@@ -42,7 +42,7 @@ voices = {
     "हमारी Management Team आपसे संपर्क करेगी। "
     "धन्यवाद। आपका दिन शुभ हो।.",
     "hi-IN-SwaraNeural",
-    "-5%",
+    "0%",
     "+3Hz"
     )
 }

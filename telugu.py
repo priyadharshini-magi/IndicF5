@@ -16,7 +16,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 voices = {
     "telugu.wav": (
-    "S C M SILK సరఫరాదారు పోర్టల్‌కు స్వాగతం. "
+    "A V SEVEN S C M SILK సరఫరాదారు పోర్టల్‌కు స్వాగతం. "
     "ఈ వీడియోలో SCM SILK సరఫరాదారు పోర్టల్‌లో అపాయింట్‌మెంట్ ఎలా బుక్ చేయాలో స్టెప్ బై స్టెప్‌గా వివరించబడుతుంది. "
     "మొదట Google Chrome ఓపెన్ చేయండి. "
     "అడ్రస్ బార్‌లో www dot the scm silk dot com టైప్ చేసి Enter నొక్కండి. "

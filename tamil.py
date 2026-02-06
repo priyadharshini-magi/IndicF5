@@ -9,41 +9,84 @@ DEFAULT_VOLUME = "+0%"
 
 # Output folder name
 OUTPUT_DIR = "tamil_output"
-OUTPUT_FILE = "scm1.wav"
+OUTPUT_FILE = "scm3.wav"
 
 # Ensure folder exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 voices = {
+    # "tamil.wav": (
+    #     " A V 7 S C M SILK Supplier Portal க்கு வரவேற்கிறோம். "
+    #     "S C M SILK Supplier Portal க்கு Appointment எவ்வாறு பதிவு செய்வது என்பதை படிப்படியாக பார்க்கலாம். "
+    #     "Google Chrome ஐ திறக்கவும். "
+    #     "Search Box-ல் www.Thee S C M silk dot com என்று type செய்து Enter அழுத்தவும். "
+    #     "Home Page open ஆகும். "
+    #     "Login Supplier Portal click செய்யவும். "
+    #     "உங்கள் User name மற்றும் Password ஐ enter செய்யவும், Login click செய்யவும். "
+    #     "உள்நுழைந்த பிறகு, அனைத்து Option இடது பக்கத்தில் காணப்படும். "
+    #     "Appointment option click செய்யவும். "
+    #     "Appointment Screen open ஆகும். "
+    #     "Supplier Name தானாகவே (Auto Display) காண்பிக்கப்படும். "
+    #     "Visitor Name பகுதியில், எங்கள் அலுவலகத்திற்கு வருகை தரும் நபரின் பெயரை குறிப்பிடவும். "
+    #     "Designation பகுதியில், சந்திக்க விரும்பும் நபரைத் தேர்வு செய்யவும். "
+    #     "MD Sir, GM Sir, Manager, Employee, அல்லது Others. "
+    #     "வருகையாளரின் Mobile Number enter செய்யவும். "
+    #     "Number of Persons Visit பகுதியில் மொத்த வருகையாளர்களின் எண்ணிக்கையை குறிப்பிடவும். "
+    #     "Visit Date பகுதியில், வருகை தரும் தேதியைத் தேர்வு செய்யவும். "
+    #     "Visit Time தேர்வு செய்யவும் Morning அல்லது Afternoon. "
+    #     "Comment Section இல் வருகையின் நோக்கத்தை குறிப்பிடவும். "
+    #     "அனைத்து விவரங்களையும் நிரப்பிய பிறகு, Submit என்ற option click செய்யவும். "
+    #     "Success Alert காண்பிக்கப்படும். "
+    #     "OK என்பதை click செய்யவும். "
+    #     "எங்கள் Management Team உங்களை தொடர்பு கொள்வார்கள். "
+    #     "நன்றி. நல்ல நாளாக அமைய வாழ்த்துக்கள்.",
+    #     "ta-IN-PallaviNeural",
+    #     "-25%",
+    #     "+3Hz"
+    # ),
     "tamil.wav": (
-        "S C M SILK Supplier Portal க்கு வரவேற்கிறோம். "
-        "S C M SILK Supplier Portal க்கு Appointment எவ்வாறு பதிவு செய்வது என்பதை படிப்படியாக பார்க்கலாம். "
-        "Google Chrome ஐ திறக்கவும். "
-        "Search Box-ல் www.Thee S C M silk dot com என்று type செய்து Enter அழுத்தவும். "
-        "Home Page open ஆகும். "
-        "Login Supplier Portal click செய்யவும். "
-        "உங்கள் User name மற்றும் Password ஐ enter செய்யவும், Login click செய்யவும். "
-        "உள்நுழைந்த பிறகு, அனைத்து Option இடது பக்கத்தில் காணப்படும். "
-        "Appointment option click செய்யவும். "
-        "Appointment Screen open ஆகும். "
-        "Supplier Name தானாகவே (Auto Display) காண்பிக்கப்படும். "
-        "Visitor Name பகுதியில், எங்கள் அலுவலகத்திற்கு வருகை தரும் நபரின் பெயரை குறிப்பிடவும். "
-        "Designation பகுதியில், சந்திக்க விரும்பும் நபரைத் தேர்வு செய்யவும். "
-        "MD Sir, GM Sir, Manager, Employee, அல்லது Others. "
-        "வருகையாளரின் Mobile Number enter செய்யவும். "
-        "Number of Persons Visit பகுதியில் மொத்த வருகையாளர்களின் எண்ணிக்கையை குறிப்பிடவும். "
-        "Visit Date பகுதியில், வருகை தரும் தேதியைத் தேர்வு செய்யவும். "
-        "Visit Time தேர்வு செய்யவும் Morning அல்லது Afternoon. "
-        "Comment Section இல் வருகையின் நோக்கத்தை குறிப்பிடவும். "
-        "அனைத்து விவரங்களையும் நிரப்பிய பிறகு, Submit என்ற option click செய்யவும். "
-        "Success Alert காண்பிக்கப்படும். "
-        "OK என்பதை click செய்யவும். "
-        "எங்கள் Management Team உங்களை தொடர்பு கொள்வார்கள். "
-        "நன்றி. நல்ல நாளாக அமைய வாழ்த்துக்கள்.",
-        "ta-IN-PallaviNeural",
-        "-0%",
-        "+3Hz"
-    ),
+    "சார் வணக்கம், "
+    "AV7 SCM Silks Supplier Portal-க்கு தங்களை அன்புடன் வரவேற்கிறோம். "
+    "இந்த வீடியோல நாம என்ன பார்க்கப் போறோம்னா, "
+    "Appointment எப்படி book பண்ணுறதுன்னு step by step ஆ பாக்கலாம் சார். "
+    "முதல்ல, Google Chrome-ஐ open பண்ணுங்க. "
+    "Search box-ல் www.the SCM silk dot com அப்படின்னு type பண்ணுங்க. "
+    "Type பண்ணினதும் Home Page open ஆகும். "
+    "Home Page open ஆன உடனே Login Supplier Portal option ஐ click பண்ணணும் சார். "
+    "Click பண்ணினா User ID மற்றும் Password கேக்கும். "
+    "அதை enter பண்ணிட்டு Login கொடுக்கணும். "
+    "Login பண்ணியதும், left side-ல் எல்லா options உம் காணப்படும் சார். "
+    "இதுல Appointment அப்படிங்கிற option-ஐ click பண்ணினா, "
+    "Appointment screen open ஆகும். "
+    "Appointment screen-ல் Supplier Name already display ஆகும் சார். "
+    "Visitor Name field-ல், "
+    "யாரு office-க்கு visit பண்ண வராங்களோ, அவர்களோட name ஐ type பண்ணணும். "
+    "Designation field-ல், "
+    "MD Sir, GM Sir, Manager, Employee அல்லது Others "
+    "yaarai  meet பண்ண வராங்கன்னு select பண்ணணும் சார். "
+    "Visitor Mobile Number field-ல், "
+    "visit பண்ண வர்றவரோட mobile number-ஐ enter பண்ணணும். "
+    "Number of Persons field-ல், "
+    "எத்தனை பேர் visit பண்ண வராங்கன்னு mention பண்ணணும். "
+    "Visit Date-ல், "
+    "என்ன date-ல் visit பண்ண வராங்கன்னு select பண்ணணும். "
+    "Visit Time-ல், "
+    "morning-ஆ இல்ல afternoon-ஆன்னு select பண்ணணும். "
+    "Comments section-ல், "
+    "எந்த purpose-க்காக visit பண்ண வராங்கன்னு type பண்ணணும் சார். "
+    "இது எல்லாம் fill பண்ணி முடிச்சதும், "
+    "Submit option-ல் click பண்ணுங்க. "
+    "Submit பண்ணினதும், "
+    "Success அப்படின்னு alert message show ஆகும். "
+    "OK- click பண்ணினா, "
+    "Management team-ல் இருந்து உங்களை contact பண்ணுவாங்க சார். "
+    "Thank you Sir, "
+    "Have a good day!",
+    "ta-IN-PallaviNeural",
+    "-1%",
+    "+3Hz"
+)
+
 }
 
 async def generate(filename, text, voice, rate, pitch):
